@@ -1,0 +1,104 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "wulong_wechatApp",
+	"description": "wl_wechatApp",
+	"appid": "touristappid",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "我的",
+					"pathName": "dist_store/pages/mine/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "商品详情",
+					"pathName": "dist_store/pages/goodsDetail/index",
+					"query": "id=8&__key_=15843419687821",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现",
+					"pathName": "dist_store/pages/withdraw/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "记录",
+					"pathName": "dist_store/pages/record/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "余额明细",
+					"pathName": "dist_store/pages/balanceDetail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "统计明细",
+					"pathName": "dist_store/pages/statisticalDetail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "统计",
+					"pathName": "dist_store/pages/statistical/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "商品列表",
+					"pathName": "dist_store/pages/goodsList/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现记录",
+					"pathName": "dist_store/pages/drawRecord/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

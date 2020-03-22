@@ -1,0 +1,91 @@
+@import '../../style/index.scss';
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/tab-bar.scss";
+@import "~taro-ui/dist/style/components/badge.scss";
+
+page{
+    background:rgba(244,244,244,1);
+}
+.serach_content{
+    width:100%;
+    height:64rpx;
+    padding:0rpx 30rpx;
+    box-sizing: border-box; 
+    background: white;
+    @include flexBox(center,space-between);
+}
+.serach_input{
+    height:64rpx;
+    width:604rpx;
+    border-radius:45rpx;
+    background:rgba(243,243,243,1);
+    @include flexBox();
+    padding-left:24rpx;
+    box-sizing: border-box;
+    input{
+        @include fontStyle();
+        margin-left:16rpx;
+        box-sizing: border-box;
+        width:400rpx;
+    }
+}
+.serach_btn{
+    margin-left:auto;
+    @include fontStyle();
+}
+.cond_content{
+    @include flexBox();
+    padding:24rpx 0rpx 16rpx 30rpx;
+    box-sizing: border-box;
+    background: white;
+}
+.sort_item{
+    @include fontStyle(26rpx,500,rgba(13,13,13,1));
+    margin-right:40rpx;
+}
+.curSort_item{
+    color:#2FCB88;
+}
+.sort_content{
+    @include flexBox();
+}
+.sort_type{
+    @include flexBox(center,center);
+    @include fontStyle(26rpx);
+    width:160rpx;
+    height:52rpx;
+    border-radius: 26rpx;
+    box-sizing: border-box;
+    margin-right:40rpx;
+}
+.goods_item{
+    @include flexBox();
+    width:690rpx;
+    height:182rpx;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 10px 0px rgba(170,170,170,0.15);
+    border-radius:8rpx;
+    margin:24rpx auto;
+}
+.goods_headPic{
+    width:240rpx;
+    height:182rpx;
+    border-radius: 8rpx;
+    margin-right:24rpx;
+}
+.goods_info{
+    @include flexBox(initial,initial,column);
+    .goods_title{
+        @include fontStyle(26rpx,500,rgba(13,13,13,1));
+        margin-top:20rpx;
+    }
+    .goods_price{
+        margin-top:20rpx;
+        @include fontStyle(40rpx,500,rgba(47,203,136,1));
+    }
+    .other_info{
+        margin-top:12rpx;
+        @include flexBox();
+        @include fontStyle(24rpx,500,rgba(172,172,172,1));
+    }
+}

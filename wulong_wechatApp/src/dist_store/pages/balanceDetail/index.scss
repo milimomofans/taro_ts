@@ -1,0 +1,62 @@
+@import "~taro-ui/dist/style/components/accordion.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/calendar.scss";
+@import "~taro-ui/dist/style/components/modal.scss";
+@import "~taro-ui/dist/style/components/accordion.scss";
+@import "../../style/index.scss";
+
+
+// .option_item{
+//     width:186rpx;
+//     height:52rpx;
+//     @include flexBox(center,center);
+//     @include fontStyle(26rpx,500,rgba(96,96,96,1));
+// }
+.bdetail_content{
+    margin-top:50rpx;
+}
+.bdetail_item{
+    width:690rpx;
+    padding:30rpx 0;
+    margin:auto;
+    border-bottom: 2rpx solid rgba(216,216,216,1);
+}
+.bdetail_item_top{
+    @include flexBox(center,space-between);
+    view:nth-of-type(1){
+        @include fontStyle(28rpx,500,rgba(13,13,13,1));
+    }
+    view:nth-of-type(2){
+        @include fontStyle(30rpx,bold,rgba(47,203,136,1));
+    }
+}
+.bdetail_item_bottom{
+    margin-top: 10rpx;
+    @include flexBox(center,space-between);
+    @include fontStyle(24rpx,500,rgba(172,172,172,1));
+}
+.bottom_btn{
+    @include flexBox(center,space-around);
+    width:690rpx;
+    margin:auto;
+    position:fixed;
+    bottom: 120rpx;
+    left:0;
+    right:0;
+}
+.btn_item{
+    width:334rpx;
+    height:80rpx;
+    background:linear-gradient(90deg,rgba(72,209,150,1) 0%,rgba(0,203,116,1) 100%);
+    border-radius:8rpx;
+    @include flexBox(center,center);
+    @include fontStyle(30rpx,500,rgba(255,255,255,1));
+}
+.options{
+    margin-left:30rpx;
+    @include flexBox(center);
+    position: relative;
+}
+.scrollClass{
+    position: absolute;
+}

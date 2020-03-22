@@ -1,0 +1,39 @@
+@import '../../style/index';
+
+.record_title{
+    @include flexBox(center,space-between);
+    @include fontStyle(24rpx,500,rgba(96,96,96,1));
+    text{
+        margin-left:15rpx;
+    }
+    width:100%;
+    padding:20rpx 30rpx;
+    box-sizing: border-box;
+}
+.record_item{
+    width:690rpx;
+    margin:auto;
+    @include flexBox();
+    @include fontStyle(24rpx,500,rgba(13,13,13,1));
+    padding:24rpx 0rpx;
+    box-sizing: border-box;
+    border-bottom: 2rpx solid rgba(229,229,229,1);
+    text{
+        @include fontStyle(28rpx,bold,rgba(13,13,13,1));
+    }
+    view:nth-of-type(1){
+        width:146rpx;
+        margin-right:48rpx;
+    }
+    view:nth-of-type(2){
+        width:176rpx;
+        margin-right:60rpx;
+    }
+    view:nth-of-type(3){
+        width:96rpx;
+        margin-right:54rpx;
+    }
+    view:nth-of-type(4){
+        width:112rpx;
+    }
+}

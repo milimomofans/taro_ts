@@ -1,0 +1,46 @@
+@import '../../style/index';
+.title{
+    padding-top:40rpx;
+    margin-left: 30rpx;
+    @include fontStyle(28rpx,500,rgba(13,13,13,1));
+}
+.widhdraw_content{
+    margin-top:60rpx;
+    @include flexBox(center,center,column);
+}
+.content_title{
+    @include fontStyle(28rpx,500,rgba(13,13,13,1));   
+}
+.input_content{
+    margin-top:30rpx;
+    @include flexBox(center,center);
+    width:100%;
+    border-bottom: 2rpx solid rgba(216,216,216,1);
+    padding-bottom: 40rpx;
+    text{
+        @include fontStyle(60rpx,bold,rgba(13,13,13,1));
+        margin-right:16rpx;
+    }
+    input{
+        @include fontStyle(46rpx,500);
+        width:322rpx;
+    }
+}
+.prompt{
+    margin-top: 20rpx;
+    @include flexBox(center,center);
+    @include fontStyle(28rpx,500,rgba(96,96,96,1));
+    text{
+        margin-left:20rpx;
+        color:#2FCB88;
+    }
+}
+.submit{
+    width:630rpx;
+    height:80rpx;
+    @include flexBox(center,center);
+    @include fontStyle(30rpx,500,rgba(255,255,255,1));
+    background: linear-gradient(90deg,rgba(72,209,150,1) 0%,rgba(0,203,116,1) 100%);
+    border-radius: 45rpx;
+    margin: 160rpx auto auto auto;
+}

@@ -1,0 +1,42 @@
+@import "../../style/index.scss";
+@import "~water-ui/dist/style/components/top-bar.scss";
+
+.tabs{
+    width:690rpx;
+    height:70rpx;
+    margin:auto;
+    @include flexBox(center,space-around);
+    border-radius:10px;
+    border:2rpx solid rgba(47,203,136,1);
+}
+.tab{
+    height:100%;
+    @include flexBox(center,center);
+    @include fontStyle(28rpx,500,rgba(47,203,136,1)); 
+}
+.curTab{
+    background:rgba(47,203,136,1);
+    color:rgba(255,255,255,1) !important;
+}
+.list_content{
+    width:690rpx;
+    padding:30rpx 0;
+    margin:auto;
+    border-bottom: 2rpx solid rgba(216,216,216,1);
+}
+.list_item{
+    margin-top: 10rpx;
+    @include flexBox(center,space-between);
+    .first_left{
+        @include fontStyle(28rpx);
+    }
+    .first_right{
+        @include fontStyle(30rpx);
+    }
+    .second_left{
+        @include fontStyle(24rpx,500,rgba(172,172,172,1));
+    }
+    .second_right{
+        @include fontStyle(24rpx,500,rgba(172,172,172,1));
+    }
+}

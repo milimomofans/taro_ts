@@ -1,0 +1,11 @@
+@mixin flexBox($a:center,$j:initial,$d:row){
+	display: flex;
+	align-items: $a;
+    justify-content: $j;
+    flex-direction: $d;
+}
+@mixin fontStyle($size:26rpx,$weight:500,$color:rgba(51,51,51,1)){
+	font-size:$size;
+	font-weight:$weight;
+	color:$color;
+}
